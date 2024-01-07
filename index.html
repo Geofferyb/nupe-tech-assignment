@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="John Doe">
+    </head>
+    <body>
+        <style>
+            td, th{
+                
+                display: ;
+                width: 20%;
+                height: 50px;
+                font-size: 20px;
+                position: relative;
+            }
+            th{
+                font-size: 25px;
+            }
+            td{
+                background-color: rgb(41,35,35);
+                color: aliceblue;
+                font-weight: bold;
+            }
+            .container{
+                overflow-x:auto;
+                display: flex;
+                
+                justify-content: center;
+            }
+            main{
+                width: 100%;
+                background-color: #000000;
+                
+            }
+            h1{
+                color: #979595;
+               text-align: center;
+                padding-top: 30px;
+            }
+            section{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+
+            }
+            video{
+               width:100%;
+            }
+            h3{
+                color: #979595;
+                font-size: 2rem;
+                transition: 12 ease-in-out;
+            }
+            @media  screen and (max-width:657px) {
+                .container{
+                    padding: 0px 20px 0px 20px;
+                    display: block;
+                }
+            }
+            @media  only screen and (min-width:491px) {
+                video{
+                    width:50%;
+                }
+                h3{
+                    text-align: center;
+                }
+                
+            }
+        </style>
+        <main>
+            <h1>NUPE TECH Assignment</h1>
+            <div class="container">
+               
+                <table style="border: 1px solid black;;">
+                    <thead>
+                        <tr style="background-color: rgb(102, 102, 102); ">
+                            <th>Abreviation</th>
+                            <th>File format</th>
+                            <th>MIME type</th>
+                            <th>file extensions</th>
+                            <th>suppoted broswer</th>
+                        </tr>
+                        
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="background-color: rgb(41,35,35);color: skyblue;font-weight: bold;text-decoration: underline;">BMP</td>
+                            <td style="background-color: rgb(41,35,35);font-weight: bold;">Bitmap file</td>
+                            <td style="background-color: rgb(41,35,35);font-weight: bold;">Image/bmp</td>
+                            <td style="background-color: rgb(41,35,35);font-weight: bold;">.bmp</td>
+                            <td style="background-color: rgb(41,35,35);font-weight: bold;">chrome,edge,firefox,ie</td>
+                        </tr>
+                        <tr>
+                           <td>my food</td>
+                           <td>car</td>
+                           <td>shoe</td>
+                           <td>house</td>
+                           <td>cloth</td>
+                        </tr>
+                        <tr>
+                            <td>my food</td>
+                            <td>car</td>
+                            <td>shoe</td>
+                            <td>house</td>
+                            <td>cloth</td>
+                        </tr>
+                        <tr>
+                            <td>my food</td>
+                            <td>car</td>
+                            <td>shoe</td>
+                            <td>house</td>
+                            <td>cloth</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>vedio section</h3>
+            <section>
+               
+                <video controls src="https://nupe-assignment.netlify.app/assets/Sawfa_Nabqa_Huna__Mahmud_Huzaifa__سوف_نبقى_هنا__محمود_حذيفة(360p).mp4" ></video>
+            </section>
+           
+        </main>
+    </body>
+</html>
